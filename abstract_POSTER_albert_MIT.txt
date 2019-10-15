@@ -1,0 +1,10 @@
+POSTER:
+
+Multi Instrument Tomography of the Solar Corona.
+
+Richard A. Frazin (1), Alberto M. Vásquez (2), Enrico Landi (1) and Diego G. Lloveras (2).
+
+(1) University of Michigan, Ann Arbor - Michigan, EEUU.
+(2) IAFE (UBA-CONICET), Ciudad Autonoma de Buenos Aires, Argentina.
+
+Solar rotational tomography (SRT) was originally developed to be applied to coronal white light images, allowing reconstruction of the three-dimensional (3D) distribution of the coronal electron density. More recently SRT was extended to be applied to coronal EUV narrowband images, producing 3D maps of the EUV emissivity in each band. These are in turn used to compute 3D maps the differential emission measure (DEM), from which the coronal electron density and temperature can be obtained. In this work, we introduce a new tomographic methodology of the solar corona capable in principle of simultaneously determining the 3D distribution of the electron density and temperature, the filling factor, and the coronal iron abundance. The technique, dubbed multi instrument tomography (MIT), involves joint analysis of tomographic products based on data provided by multiple instruments: white-light coronagraphs, EUV telescopes, and visible emission line coronagraphs. MIT is currently under development to combine data from KCOR, AIA, and the (soon to be operative) Upgraded Coronal Multichannel Polarimeter (UCoMP) instrument. For a specific target Carrington rotation, we show examples of the tomographic products based on the different types of data sets required, and discuss the capabilities of the technique as well as the challenges involved in its implementation.
