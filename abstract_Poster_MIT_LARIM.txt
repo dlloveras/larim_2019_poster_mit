@@ -1,0 +1,9 @@
+
+TITLE: Towards Multi Instrument Tomography of the Solar Corona
+
+AUTHOR: Diego G. Lloveras(1), Alberto M. Vásquez(1), Enrico Landi(2) and Richard A. Frazin(2)
+
+(1) IAFE (UBA-CONICET), Ciudad Autonoma de Buenos Aires, Argentina.
+(2) CLaSP (Univ. of Michigan), Ann Arbor - Michigan, EEUU.
+
+ABSTRACT: Solar rotational tomography (SRT) allows reconstruction of the three-dimensional (3D) distribution of the coronal electron density $N_e$. Using white light images the electron density results are of an absolute nature. Using Extreme Ultraviolet (EUV) images the results depend on the iron coronal abundance [Fe] and the coronal density irregularity factor $X\equiv\left<N_e^2\right>/\left<N_e\right>^2$, where $\left<\right>$ indicates the average over the tomographic voxel. Applying both methodologies independently allows determination of $X$ assuming values for [Fe]. We develop a new tomographic technique that jointly exploits optical and EUV data, that will allow determination of these parameters in a joint manner along with other fundamental coronal parameters. In this work we describe the technique, dubbed Multi Instrument Tomography, currently under development.
