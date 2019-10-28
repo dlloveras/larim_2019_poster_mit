@@ -1,4 +1,4 @@
-\documentclass[a1,portrait,final]{baposter_old}
+\documentclass[a0,portrait,final]{baposter_old}
 
 \usepackage[utf8]{inputenc}
 
@@ -231,10 +231,10 @@
   \fbox{\includegraphics[height=5.em]{logo_IAFE.pdf}}}
  % Title
  {\sf\textcolor{white}%{MyDarkBlue}
- {\vskip 0.25cm \bf \Large Abundancia de Hierro y Factor de Irregularidad en la Corona Solar Baja}}
+ {\vskip 0.25cm \bf \Large Towards Multi Instrument Tomography of the Solar Corona}}
 % Authors
 {\footnotesize\sf
-\textcolor{white}{Diego G. Lloveras\afi{1}{\bf\tt(dlloveras@iafe.uba.ar)}, Alberto M. Vásquez\afi{1}, Richard A. Frazin\afi{2} y Enrico Landi\afi{2} 
+\textcolor{white}{Diego G. Lloveras\afi{1}{\bf\tt(dlloveras@iafe.uba.ar)}, Alberto M. Vásquez\afi{1}{\bf\tt(albert@iafe.uba.ar)}, Enrico Landi\afi{2} and Richard A. Frazin\afi{2}  
 \vskip 0.1cm
 \afi{1}Instituto de Astronom\'\i a y F\'\i sica del Espacio, CONICET--UBA, Argentina.
 \vskip 0.05cm
@@ -244,15 +244,16 @@ of Michigan, EEUU}}
 \fbox{\includegraphics[height=5.em]{logo_CLASP.pdf}}}
 
 
-\headerbox{\centerline{Resumen}}{name=abstract,column=0,row=0,span=3}{
+\headerbox{\centerline{Abstract}}{name=abstract,column=0,row=0,span=3}{
 \begin{center} 
 {\footnotesize\sf
-La distribución tridimensional de la densidad electrónica $N_e$ de la corona solar baja puede determinarse mediante técnicas tomográficas. Utilizando observaciones en luz blanca el resultado es de naturaleza absoluta. Utilizando imágenes en extremo ultravioleta, el resultado depende de la abundancia coronal de hierro $\AFe$ y del denominado \emph{factor de irregularidad} coronal $X \equiv \left< N_e^2 \right> /  \left< N_e \right>^2$, dónde $\left<\right>$ indica promedio sobre la celda tomográfica. Aplicamos ambas metodologías a rotaciones solares seleccionadas. Combinando ambas técnicas en la corona solar baja ($r < 1.25\,\mrsun$) es en principio posible determinar $X$ asumiendo valores $\AFe$. Dicho análisis motiva el desarrollo de una nueva técnica tomográfica que permita la determinación de estos parámetros en forma independiente. Presentamos dicha metodología, actualmente en desarrollo.
+\azul{Solar rotational tomography (SRT)} allows reconstruction of the three-dimensional (3D) distribution of the coronal electron density $N_e$. Using white light images the electron density results are of an absolute nature. Using Extreme Ultraviolet (EUV) images the results depend on the iron coronal abundance [Fe] and the coronal density irregularity factor $X\equiv\left<N_e^2\right>/\left<N_e\right>^2$, where $\left<\right>$ indicates the average over the tomographic voxel. Applying both methodologies independently allows determination of $X$ assuming values for [Fe]. We develop a new tomographic technique that jointly exploits optical and EUV data, that will allow determination of these parameters in a joint manner along with other fundamental coronal parameters. In this work we describe the technique, dubbed \azul{Multi Instrument Tomography}, currently under development.
+
 }
 \end{center}
 }
 
-\headerbox{Qué es la Tomografía Solar Rotacional (SRT)?}{name=Tom,column=0,below=abstract,span=3}{
+\headerbox{What is Solar Rotational Tomography?}{name=Tom,column=0,below=abstract,span=3}{
 {\footnotesize\sf
 {\includegraphics[width=0.33\textwidth]{tomo1.png}}
 {\includegraphics[width=0.33\textwidth]{tomo2.png}}
@@ -260,31 +261,31 @@ La distribución tridimensional de la densidad electrónica $N_e$ de la corona s
 }
 }
 
-\headerbox{Imágenes}{name=Images,column=0,below=Tom,span=0.5}{
+\headerbox{Data images}{name=Images,column=0,below=Tom,span=0.5}{
 {\footnotesize\sf
 \begin{center}
-Luz Blanca \azul{HAO/KCOR}\\
+\azul{HAO/KCOR} white light\\
 \includegraphics[width=0.9\columnwidth]{20171203_180316_kcor_l1_10min_avg_image.pdf}\\
-Banda \azul{SDO/AIA-171\,\AA}\\
+\azul{SDO/AIA-171\,\AA} band\\
 \includegraphics[width=0.9\columnwidth]{img_171.pdf}\\
-Banda \azul{SDO/AIA-193\,\AA}\\
+\azul{SDO/AIA-193\,\AA} band\\
 \includegraphics[width=0.9\columnwidth]{img_193.pdf}\\
-Banda\azul{SDO/AIA-211\,\AA}\\
+\azul{SDO/AIA-211\,\AA} band\\
 \includegraphics[width=0.9\columnwidth]{img_211.pdf}\\
-Línea \azul{HAO/CoMP-1074\,\AA}\\
+\azul{HAO/CoMP-1074\,\AA} line\\
 \includegraphics[width=0.9\columnwidth]{20171203_214113_comp_1074_dynamics_avg_total_intensity_t018-Dt8_images.pdf}\\
-Línea \azul{HAO/CoMP-1079\,\AA}\\
+\azul{HAO/CoMP-1079\,\AA} line\\
 \includegraphics[width=0.9\columnwidth]{20171203_202649_comp_1079_dynamics_avg_total_intensity_t018-Dt8.pdf}
 \vskip 0.1cm
-\azul{FOV común: $\approx 1.05-1.25\,\mrsun$}
+\azul{Common FOV: $\approx 1.05-1.25\,\mrsun$}
 \end{center}
 }
 }
 
-\headerbox{Reconstrucciones Tomográficas}{name=Reconstructions,column=0.5,below=Tom,span=0.9}{
+\headerbox{Tomographic Reconstructions}{name=Reconstructions,column=0.5,below=Tom,span=0.9}{
 {\footnotesize\sf
 \begin{center}
-Mapas latitud/longitud a una altura de muestreo\\
+Carrington maps at a sample height\\
 \includegraphics[width=\columnwidth]{map_x_KCORCR219813imgs-reducedbf2ri105ro225_Inst_109_200_120_90_180_dropneg_r3D_l1e-4_1105_Rsun.pdf}\\
 \includegraphics[width=\columnwidth]{map_x_aia_171_1105_Rsun.pdf}\\
 \includegraphics[width=\columnwidth]{map_x_aia_193_1105_Rsun.pdf}\\
@@ -292,11 +293,11 @@ Mapas latitud/longitud a una altura de muestreo\\
 \includegraphics[width=\columnwidth]{map_x_comp1074_1105_Rsun.pdf}\\
 \includegraphics[width=\columnwidth]{map_x_comp1079_1105_Rsun.pdf}
 \vskip 0.1cm
-\azul{La serie temporal de cada instrumento es utilizada en una reconstrucción tomográfica independiente.}
+\azul{The time series taken by each instrument is used for an independent tomographic reconstruction.}
 \end{center}
 }
 }
-\headerbox{$N_e$: Tomografía en Luz Blanca versus EUV}{name=KCORTom_DEMT,column=1.4,below=Tom,span=1.6}{
+\headerbox{$N_e$: WL-kcor versus EUV-aia}{name=KCORTom_DEMT,column=1.4,below=Tom,span=1.6}{
 {\footnotesize\sf
 \begin{center}
   Comparación de $N_e$ a partir de Tomografía EUV (izquierda) y Luz Blanca (derecha)\\  
@@ -309,47 +310,46 @@ Mapas latitud/longitud a una altura de muestreo\\
   \\
   \hrulefill
   \saltito
-  Asumiendo que el plasma en la celda es isotérmico, el factor de irregularidad coronal $X$ escala como: 
+  Assuming that the plasma is isothermic in each tomographic voxel, the coronal irregularity factor $X$ scales as
   \azul{$X \equiv \AvgNeSQ^{(\rm{Tom-EUV})} / \left(\AvgNe^{(\rm{Tom-LB})}\right)^2 \propto 1 / \AFe$}.
   \saltito
-  Asumiendo valores para $\AFe$ es posible determinar $X$. Teóricamente se espera que $X>1$. Los resultados obtenidos resultan inconsistentes, sugiriendo suposiciones demasiado simplistas.
+  Assuming $\AFe$ values it is posible determine $X$. The results are inconsistent with the theory ($X>1$), suggesting that the assumptions are too simplistic.
   \saltito
-  Para determinar conjuntamente los valores de $\AFe$ y $X$ es necesario considerar la correlación entre $N_e$ y $T_e$. Esto motiva el desarrollo de una nueva técnica tomográfica: TMI
+  To jointly determine the values of $\AFe$ and $X$ it is necessary to consider the correlation between the distributions of $N_e$ and $T_e$. This motivates the development of a new tomographic technique: dubbed MIT
+
 \end{center}
 }
 }
 
-\headerbox{Tomografía Multi-Instrumental (TMI)}{name=Conclusions,column=1.4,below=KCORTom_DEMT,span=1.6}{
+\headerbox{Multi Instrument Tomography (MIT)}{name=Conclusions,column=1.4,below=KCORTom_DEMT,span=1.6}{
 {\footnotesize\sf
 
 \begin{itemize}
 
-\item Asumimos $T_e$ y $N_e$ variables dentro del voxel. Modelamos la probabilidad de que un pequeño volumen de plasma tenga valores ($T_e$, $N_e$) por:
-\hskip 0.2cm 
+\item $T_e$ and $N_e$ vary within each tomographic voxel. Let us model the probability that a tiny volume of plasma has values ($T_e$, $N_e$) as: 
+%\hskip 0.2cm 
 \azul{$\mathcal{P} (N_e, T_e | T_m, N_m, \sigma_T, \sigma_N, q )  = \\  \frac{1}{2 \pi \sigma_T \sigma_N \sqrt{1-q^2} }  
 \times \exp \left\{ \frac{-1}{2(1 - q^2)} \left[ \frac{ (T_e - T_m)^2 }{\sigma_T^2} + \frac{(N_e - N_m)^2}{\sigma_N^2}  
 - \frac{2 q (T_e-T_m)(N_e - N_m)}{\sigma_T \sigma_N}   \right]  \right\}$},\\
-dónde \azul{$N_m$} y \azul{$T_m$} son los valores medios en el voxel, \azul{$\sigma_T$} y \azul{$\sigma_N$} are las desviaciones standard, y \azul{$q$} es el \emph{coeficiente de correlación temperatura--densidad}.   
+where \azul{$N_m$} and \azul{$T_m$} are the mean electron density in the voxel, \azul{$\sigma_T$} and \azul{$\sigma_N$} are standard deviations, and \azul{$q$} is the \emph{temperature-density correlation coefficient}.   
 
 \item
-El objetivo es determinar conjuntamente en cada voxel el valor de los parámetros \azul{$(N_m, \bc) \equiv (N_m, \AFe, T_m, \sigma_T, \sigma_N, q)$} a partir de las reconstrucciones tomográficas.
+We aim at estimating the parameters \azul{$(N_m, \bc) \equiv (N_m, \AFe, T_m, \sigma_T, \sigma_N, q)$} from the joint tomographic measurements in each voxel.
 
-\item Sea \azul{$s_k (\AFe, T_e, N_e)$} un modelo de síntesis espectral (ej. CHIANTI) para las \azul{$k = (1, \dots, M)$} líneas espectrales y bandas EUV. La $k$-\underline{esima} emisividad tomográfica \azul{$\epsilon_k$} en el voxel está dada por:\\
+\item Let a spectral synthesis model of the $M$ spectral lines and EUV band (such as CHIANTI) be represented by \azul{$s_k (\AFe, T_e, N_e)$} where \azul{$k = (1, \dots, M)$}. The $k$-\underline{th} tomographic emisivity in the computational volume element \azul{$\epsilon_k$} is given by:\\
 \azul{$\epsilon_k(N_m, \bc) = \int \rd T_e \ \int \rd N_e \ s_k(\AFe, T_e, N_e) \ \mathcal{P}(T_e, N_e | N_m, T_m, \sigma_T, \sigma_N, q)$}.
 
-\item Denominamos $\by = ( y_1, \dots , y_M)$ el vector de mediciones tomográficas EUV en un voxel, e $y_0$ a la medición de densidad tomográfica en luz blanca.
+\item Let us call $\by = ( y_1, \dots , y_M)$ the vector of tomographic measurements for a voxel, except for the white-light measurements of the density, which is $y_0$, not included in the vector $y$.
 
-\item Sea \azul{$\bSigma$} la matriz de covariancia \azul{$M \times M$} de la incerteza de las mediciones EUV. Considerando las incertezas como no correlacionadas \azul{$\bSigma$} es diagonal, y el \emph{estimador de máxima verosimilitud} del vector de parámetros \azul{$\bc$} puede hallarse mediante el problema de optimización,\\ 
+\item Let \azul{$\bSigma$} be the \azul{$M \times M$} uncertainty covariance matrix of the CoMP (or UCoMP) and EUV measurements. Treating all uncertainties as uncorrelated, \azul{$\bSigma$} is diagonal and the \emph{maximum likelihood estimate} of the parameter vector \azul{$\bc$} can be found in each voxel performing,\\ 
 \azul{$(\hat{N}_m, \hat{\bc}) = \underset{N_m, \bc}{\mathrm{argmin}} \bigg[  \frac{ (N_m - y_0)^2}{\sigma^2_\mathrm{wl}} +  \big(\bepsilon(\bc) - \by \big)^\rT \bSigma^{-1} \big( \bepsilon(\bc) - \by \big) \, \bigg]$},
-dónde \azul{$\bepsilon \equiv (\epsilon_1, \dots, \epsilon_M)$}.
+where \azul{$\bepsilon \equiv (\epsilon_1, \dots, \epsilon_M)$}.
 
-\item Determinados \azul{$(\hat{N}_m, \hat{\bc})$}, el factor de irregularidad $X$ puede calcularse por definición.
+\item Once \azul{$(\hat{N}_m, \hat{\bc})$} is found in each voxel with valid data, $X$ can be computed.
 
-\item La técnica MIT se encuentra actualmente en implementación, en base a los productos tomograficos que se muestran en este poster. Será adaptada posteriormente para datos del instrumento HAO/UCoMP cuando el mismo se encuentre operacional.
-
+\item The technique is currently being implemented, based on the tomographic products shown here. It will be adapted to use UCoMP data once the instrument is operational.
 \end{itemize}
 }
 }
-
 \end{poster}
 \end{document}
