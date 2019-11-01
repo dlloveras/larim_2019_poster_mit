@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.13)  14 OCT 2019 22:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.5)  29 OCT 2019 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -905,7 +905,7 @@ Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR)
 )
 
 LaTeX Warning: Unused global option(s):
-    [a1,portrait,final].
+    [a0,portrait,final].
 
 (./poster_larim_2019_MIT.aux)
 \openout1 = `poster_larim_2019_MIT.aux'.
@@ -1053,8 +1053,7 @@ File: logo_CLASP.pdf Graphic file (type pdf)
 Package pdftex.def Info: logo_CLASP.pdf  used on input line 244.
 (pdftex.def)             Requested size: 74.987pt x 50.0pt.
 \sf \leavevmode{\color {white}\vskip 0.25cm \bf \relax \fontsize {14.4}{18}\sel
-ectfont \nullfont Abundancia de Hierro y Factor de Irregularidad en la Corona S
-olar Baja}
+ectfont \nullfont Towards Multi Instrument Tomography of the Solar Corona}
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 244.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
@@ -1083,8 +1082,6 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 244.
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 name=abstract,column=0,row=0,span=3
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 253.
 Setting Coordinates
 Upper Right
 abstract
@@ -1105,17 +1102,17 @@ name=Tom,column=0,below=abstract,span=3
 <tomo1.png, id=7, 2162.0775pt x 1565.85pt>
 File: tomo1.png Graphic file (type png)
 <use tomo1.png>
-Package pdftex.def Info: tomo1.png  used on input line 261.
+Package pdftex.def Info: tomo1.png  used on input line 262.
 (pdftex.def)             Requested size: 218.67224pt x 158.36224pt.
 <tomo2.png, id=9, 2160.07pt x 1565.85pt>
 File: tomo2.png Graphic file (type png)
 <use tomo2.png>
-Package pdftex.def Info: tomo2.png  used on input line 261.
+Package pdftex.def Info: tomo2.png  used on input line 262.
 (pdftex.def)             Requested size: 218.67224pt x 158.5056pt.
 <tomo3.png, id=10, 2400.97pt x 1738.495pt>
 File: tomo3.png Graphic file (type png)
 <use tomo3.png>
-Package pdftex.def Info: tomo3.png  used on input line 261.
+Package pdftex.def Info: tomo3.png  used on input line 262.
 (pdftex.def)             Requested size: 218.67224pt x 158.3147pt.
 Setting Coordinates
 Upper Right
@@ -1138,22 +1135,22 @@ name=Images,column=0,below=Tom,span=0.5
 File: 20171203_180316_kcor_l1_10min_avg_image.pdf Graphic file (type pdf)
 <use 20171203_180316_kcor_l1_10min_avg_image.pdf>
 Package pdftex.def Info: 20171203_180316_kcor_l1_10min_avg_image.pdf  used on i
-nput line 282.
+nput line 283.
 (pdftex.def)             Requested size: 84.39534pt x 84.3932pt.
 <img_171.pdf, id=12, 1027.84pt x 1021.8175pt>
 File: img_171.pdf Graphic file (type pdf)
 <use img_171.pdf>
-Package pdftex.def Info: img_171.pdf  used on input line 282.
+Package pdftex.def Info: img_171.pdf  used on input line 283.
 (pdftex.def)             Requested size: 84.39534pt x 83.89871pt.
 <img_193.pdf, id=13, 1027.84pt x 1021.8175pt>
 File: img_193.pdf Graphic file (type pdf)
 <use img_193.pdf>
-Package pdftex.def Info: img_193.pdf  used on input line 282.
+Package pdftex.def Info: img_193.pdf  used on input line 283.
 (pdftex.def)             Requested size: 84.39534pt x 83.89871pt.
 <img_211.pdf, id=14, 1027.84pt x 1021.8175pt>
 File: img_211.pdf Graphic file (type pdf)
 <use img_211.pdf>
-Package pdftex.def Info: img_211.pdf  used on input line 282.
+Package pdftex.def Info: img_211.pdf  used on input line 283.
 (pdftex.def)             Requested size: 84.39534pt x 83.89871pt.
 <20171203_214113_comp_1074_dynamics_avg_total_intensity_t018-Dt8_images.pdf, id
 =15, 622.325pt x 622.325pt>
@@ -1162,7 +1159,7 @@ f Graphic file (type pdf)
 <use 20171203_214113_comp_1074_dynamics_avg_total_intensity_t018-Dt8_images.pdf
 >
 Package pdftex.def Info: 20171203_214113_comp_1074_dynamics_avg_total_intensity
-_t018-Dt8_images.pdf  used on input line 282.
+_t018-Dt8_images.pdf  used on input line 283.
 (pdftex.def)             Requested size: 84.39534pt x 84.39008pt.
 <20171203_202649_comp_1079_dynamics_avg_total_intensity_t018-Dt8.pdf, id=16, 12
 44.65pt x 1244.65pt>
@@ -1170,7 +1167,7 @@ File: 20171203_202649_comp_1079_dynamics_avg_total_intensity_t018-Dt8.pdf Graph
 ic file (type pdf)
 <use 20171203_202649_comp_1079_dynamics_avg_total_intensity_t018-Dt8.pdf>
 Package pdftex.def Info: 20171203_202649_comp_1079_dynamics_avg_total_intensity
-_t018-Dt8.pdf  used on input line 282.
+_t018-Dt8.pdf  used on input line 283.
 (pdftex.def)             Requested size: 84.39534pt x 84.38058pt.
 Setting Coordinates
 Upper Right
@@ -1196,32 +1193,32 @@ eg_r3D_l1e-4_1105_Rsun.pdf Graphic file (type pdf)
 <use map_x_KCORCR219813imgs-reducedbf2ri105ro225_Inst_109_200_120_90_180_dropne
 g_r3D_l1e-4_1105_Rsun.pdf>
 Package pdftex.def Info: map_x_KCORCR219813imgs-reducedbf2ri105ro225_Inst_109_2
-00_120_90_180_dropneg_r3D_l1e-4_1105_Rsun.pdf  used on input line 298.
+00_120_90_180_dropneg_r3D_l1e-4_1105_Rsun.pdf  used on input line 299.
 (pdftex.def)             Requested size: 184.79045pt x 92.3895pt.
 <map_x_aia_171_1105_Rsun.pdf, id=18, 975.645pt x 487.8225pt>
 File: map_x_aia_171_1105_Rsun.pdf Graphic file (type pdf)
 <use map_x_aia_171_1105_Rsun.pdf>
-Package pdftex.def Info: map_x_aia_171_1105_Rsun.pdf  used on input line 298.
+Package pdftex.def Info: map_x_aia_171_1105_Rsun.pdf  used on input line 299.
 (pdftex.def)             Requested size: 184.79045pt x 92.3895pt.
 <map_x_aia_193_1105_Rsun.pdf, id=19, 975.645pt x 487.8225pt>
 File: map_x_aia_193_1105_Rsun.pdf Graphic file (type pdf)
 <use map_x_aia_193_1105_Rsun.pdf>
-Package pdftex.def Info: map_x_aia_193_1105_Rsun.pdf  used on input line 298.
+Package pdftex.def Info: map_x_aia_193_1105_Rsun.pdf  used on input line 299.
 (pdftex.def)             Requested size: 184.79045pt x 92.3895pt.
 <map_x_aia_211_1105_Rsun.pdf, id=20, 975.645pt x 487.8225pt>
 File: map_x_aia_211_1105_Rsun.pdf Graphic file (type pdf)
 <use map_x_aia_211_1105_Rsun.pdf>
-Package pdftex.def Info: map_x_aia_211_1105_Rsun.pdf  used on input line 298.
+Package pdftex.def Info: map_x_aia_211_1105_Rsun.pdf  used on input line 299.
 (pdftex.def)             Requested size: 184.79045pt x 92.3895pt.
 <map_x_comp1074_1105_Rsun.pdf, id=21, 975.645pt x 487.8225pt>
 File: map_x_comp1074_1105_Rsun.pdf Graphic file (type pdf)
 <use map_x_comp1074_1105_Rsun.pdf>
-Package pdftex.def Info: map_x_comp1074_1105_Rsun.pdf  used on input line 298.
+Package pdftex.def Info: map_x_comp1074_1105_Rsun.pdf  used on input line 299.
 (pdftex.def)             Requested size: 184.79045pt x 92.3895pt.
 <map_x_comp1079_1105_Rsun.pdf, id=22, 975.645pt x 487.8225pt>
 File: map_x_comp1079_1105_Rsun.pdf Graphic file (type pdf)
 <use map_x_comp1079_1105_Rsun.pdf>
-Package pdftex.def Info: map_x_comp1079_1105_Rsun.pdf  used on input line 298.
+Package pdftex.def Info: map_x_comp1079_1105_Rsun.pdf  used on input line 299.
 (pdftex.def)             Requested size: 184.79045pt x 92.3895pt.
 Setting Coordinates
 Upper Right
@@ -1246,14 +1243,14 @@ File: map_Ne_CR2198_DEMT-AIA_H1-L799_r3D_reduced_1105_Rsun.pdf Graphic file (ty
 pe pdf)
 <use map_Ne_CR2198_DEMT-AIA_H1-L799_r3D_reduced_1105_Rsun.pdf>
 Package pdftex.def Info: map_Ne_CR2198_DEMT-AIA_H1-L799_r3D_reduced_1105_Rsun.p
-df  used on input line 320.
+df  used on input line 322.
 (pdftex.def)             Requested size: 154.83304pt x 77.41304pt.
 File: map_x_KCORCR219813imgs-reducedbf2ri105ro225_Inst_109_200_120_90_180_dropn
 eg_r3D_l1e-4_1105_Rsun.pdf Graphic file (type pdf)
 <use map_x_KCORCR219813imgs-reducedbf2ri105ro225_Inst_109_200_120_90_180_dropne
 g_r3D_l1e-4_1105_Rsun.pdf>
 Package pdftex.def Info: map_x_KCORCR219813imgs-reducedbf2ri105ro225_Inst_109_2
-00_120_90_180_dropneg_r3D_l1e-4_1105_Rsun.pdf  used on input line 320.
+00_120_90_180_dropneg_r3D_l1e-4_1105_Rsun.pdf  used on input line 322.
 (pdftex.def)             Requested size: 154.83304pt x 77.41304pt.
 <comparison_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgrid-Quiet-regio
 n1_ratio_range1105-1195_Rsun.pdf, id=24, 867.24pt x 361.35pt>
@@ -1263,7 +1260,7 @@ region1_ratio_range1105-1195_Rsun.pdf Graphic file (type pdf)
 egion1_ratio_range1105-1195_Rsun.pdf>
 Package pdftex.def Info: comparison_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor
 _1e4_newgrid-Quiet-region1_ratio_range1105-1195_Rsun.pdf  used on input line 32
-0.
+2.
 (pdftex.def)             Requested size: 127.30635pt x 53.04227pt.
 <comparison_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgrid-Open-region
 _N_ratio_range1105-1155_Rsun.pdf, id=25, 867.24pt x 361.35pt>
@@ -1273,7 +1270,7 @@ egion_N_ratio_range1105-1155_Rsun.pdf Graphic file (type pdf)
 gion_N_ratio_range1105-1155_Rsun.pdf>
 Package pdftex.def Info: comparison_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor
 _1e4_newgrid-Open-region_N_ratio_range1105-1155_Rsun.pdf  used on input line 32
-0.
+2.
 (pdftex.def)             Requested size: 127.30635pt x 53.04227pt.
 <Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgri
 d-Quiet-region1.pdf, id=26, 578.16pt x 361.35pt>
@@ -1282,7 +1279,7 @@ ewgrid-Quiet-region1.pdf Graphic file (type pdf)
 <use Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_ne
 wgrid-Quiet-region1.pdf>
 Package pdftex.def Info: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799
-_reduced_kcor_1e4_newgrid-Quiet-region1.pdf  used on input line 320.
+_reduced_kcor_1e4_newgrid-Quiet-region1.pdf  used on input line 322.
 (pdftex.def)             Requested size: 127.30635pt x 79.5634pt.
 <Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgri
 d-Open-region_N.pdf, id=27, 578.16pt x 361.35pt>
@@ -1291,7 +1288,7 @@ ewgrid-Open-region_N.pdf Graphic file (type pdf)
 <use Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_ne
 wgrid-Open-region_N.pdf>
 Package pdftex.def Info: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799
-_reduced_kcor_1e4_newgrid-Open-region_N.pdf  used on input line 320.
+_reduced_kcor_1e4_newgrid-Open-region_N.pdf  used on input line 322.
 (pdftex.def)             Requested size: 127.30635pt x 79.5634pt.
 Setting Coordinates
 Upper Right
@@ -1310,13 +1307,15 @@ Header-Shape: roundedright
 Sidebars
 Drawing Text
 name=Conclusions,column=1.4,below=KCORTom_DEMT,span=1.6
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 352.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 353.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 352.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 353.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 353.
 
 Setting Coordinates
 Upper Right
@@ -1361,19 +1360,19 @@ _h_l799_reduced_kcor_1e4_newgrid-Open-region_N_ratio_range1105-1155_Rsun.pdf> <
 ./Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799_reduced_kcor_1e4_newgr
 id-Quiet-region1.pdf> <./Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_h_l799
 _reduced_kcor_1e4_newgrid-Open-region_N.pdf>]
-Memory usage before: 35352&334663; after: 18464&331168; still untouched: 460835
-7
+Memory usage before: 35132&334381; after: 18362&331045; still untouched: 460958
+3
 [3]
-Memory usage before: 750&321131; after: 477&320992; still untouched: 4608357
+Memory usage before: 750&321134; after: 477&320995; still untouched: 4609583
 (./poster_larim_2019_MIT.aux) ) 
 Here is how much of TeX's memory you used:
- 15451 strings out of 494747
- 304187 string characters out of 6176207
- 391643 words of memory out of 5000000
- 18414 multiletter control sequences out of 15000+600000
+ 15449 strings out of 494747
+ 304135 string characters out of 6176208
+ 390417 words of memory out of 5000000
+ 18412 multiletter control sequences out of 15000+600000
  36725 words of font info for 79 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 62i,11n,58p,948b,942s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,58p,918b,942s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
 ase/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
@@ -1392,7 +1391,7 @@ sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr
 ve/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb>
-Output written on poster_larim_2019_MIT.pdf (2 pages, 7766938 bytes).
+Output written on poster_larim_2019_MIT.pdf (2 pages, 7764467 bytes).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
  140 compressed objects within 2 object streams
